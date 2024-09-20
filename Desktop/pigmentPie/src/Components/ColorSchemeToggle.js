@@ -61,20 +61,20 @@ const ColorSchemeToggle =() =>{
         if(currentTheme == 'light'){
             const lightColors = ['#F1EFE3', '#C7DC85', '#FFB219', '#E943D8', '#F66A8C'];
             newColor = interpolateColor(lightColors, value);
-            console.log(newColor);
+            //console.log(newColor);
         }
         else{
             const darkColors = ['#000000', '#2F2F2F', '#4B4B4B', '#6E6E6E', '#8A8A8A'];
             newColor = interpolateColor(darkColors, value);
-            console.log(newColor);
+            //console.log(newColor);
         }
         document.body.style.backgroundColor = newColor;
     }
    
     return (
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 relative">
         <button
-          className="relative grid place-items-center p-2 text-gray-900 bg-transparent border-none rounded-full cursor-pointer transition-transform transform active:translate-y-0.5"
+          className="color-scheme-toggle relative z-10"
           onClick={toggleTheme}
           aria-label="Toggle Dark Mode"
         >
@@ -84,8 +84,9 @@ const ColorSchemeToggle =() =>{
             viewBox="0 0 64 64"
             width="24"
             height="24"
+            fill="currentColor"
           >
-            {/* Light icon SVG */}
+            <circle cx="32" cy="32" r="32" fill="yellow" />
           </svg>
           <svg
             className={`absolute transition-opacity duration-200 ${theme === 'dark' ? 'opacity-100' : 'opacity-0'}`}
@@ -93,8 +94,9 @@ const ColorSchemeToggle =() =>{
             viewBox="0 0 64 64"
             width="24"
             height="24"
+            fill="currentColor"
           >
-            {/* Dark icon SVG */}
+            <circle cx="32" cy="32" r="32" fill="gray" />
           </svg>
         </button>
         <input
