@@ -3,7 +3,9 @@ import ColorSchemeToggle from "./ColorSchemeToggle";
 
 const Header = ()=>{
     return (
-        <div className="flex items-center justify-between shadow-md h-20">
+        <nav>
+        <div className="h-3 shadow-md">
+        <div className="flex items-center justify-between py-4">
             <div className="flex items-center mx-6">
             <div className="font-bold text-xl text-gray-800 tracking-wide" style={{ fontFamily: "'Cormorant SC', serif" }}>Sourashree Banerjee</div>
             </div>
@@ -13,24 +15,24 @@ const Header = ()=>{
                     <li className="px-3 py-1">
                         <ColorSchemeToggle/> 
                     </li>
-                    <li className="px-3 py-1">
+                    <li className="px-3 py-3">
                         <Link to="/projects">
                             projects
                         </Link>
                     </li>
-                    <li className="px-3 py-1">
+                    <li className="px-3 py-3">
                         posts
                     </li>
-                    <li className="px-3 py-1">
+                    <li className="px-3 py-3">
                         <Link to="/about">
                             about
                         </Link>
                         
                     </li>
-                    <li className="px-3 py-1">
+                    <li className="px-3 py-3">
                         uses
                     </li>
-                    <li className="px-3 py-1 mx-4">
+                    <li className="px-3 py-3 mx-1">
                         say hi
                     </li>
                 </ul>
@@ -38,6 +40,8 @@ const Header = ()=>{
             </div>
               
         </div>
+        </div>
+        </nav>
     )
 }
 

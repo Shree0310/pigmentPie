@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import  "./ColorSchemeToggle.css"
+import moonAndStarsIcon from "./../Assets/images/moon-and-stars-svgrepo-com.svg";
+import sunIcon from "./../Assets/images/sun-fog-svgrepo-com.svg";
 
 const ColorSchemeToggle =() =>{
 
@@ -84,31 +86,24 @@ const ColorSchemeToggle =() =>{
     return (
       <div className="flex items-center gap-2 relative">
         <button
-          className="color-scheme-toggle relative z-10"
+          className="color-scheme-toggle relative z-10 px-3 mx-2"
           onClick={toggleTheme}
           aria-label="Toggle Dark Mode"
         >
-          <svg
-            className={`absolute transition-opacity duration-200 ${theme === 'light' ? 'opacity-100' : 'opacity-0'}`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 64 64"
-            width="24"
-            height="24"
-            fill="currentColor"
-          >
-            <circle cx="32" cy="32" r="32" fill="yellow" />
-          </svg>
-          <svg
-            className={`absolute transition-opacity duration-200 ${theme === 'dark' ? 'opacity-100' : 'opacity-0'}`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 64 64"
-            width="24"
-            height="24"
-            fill="currentColor"
-          >
-            <circle cx="32" cy="32" r="32" fill="gray" />
-          </svg>
+        { theme === 'dark' ? (
+          <img
+            src={moonAndStarsIcon}
+            alt="light mode icon"
+            className="w-6 h-6"/>
+        ):(
+          <img
+            src={sunIcon}
+            alt="dark mode icon"
+            className="w-6 h-6"/>
+        )}
+        
         </button>
+
         <input
           type="range"
           className="theme-slider w-32 max-w-[4rem] focus:outline-none"

@@ -11,7 +11,6 @@ function App() {
     <div className="text-center p-8">
       <h1 className="text-4xl font-bold dark:text-gray-400">Hi there!!</h1>
       <p className="dark:text-gray-400">This is my new website in making..</p>
-      <ColorSchemeToggle/>
     </div>
   );
 }
