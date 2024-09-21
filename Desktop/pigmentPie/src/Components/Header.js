@@ -5,7 +5,7 @@ const Header = ()=>{
     return (
         <div className="flex items-center justify-between shadow-md h-20">
             <div className="flex items-center mx-6">
-                <p className="font-serif ml-2">Sourashree Banerjee</p>
+            <div className="font-bold text-xl text-gray-800 tracking-wide" style={{ fontFamily: "'Cormorant SC', serif" }}>Sourashree Banerjee</div>
             </div>
             
             <div className="flex items-between">
@@ -14,7 +14,9 @@ const Header = ()=>{
                         <ColorSchemeToggle/> 
                     </li>
                     <li className="px-3 py-1">
-                        projects
+                        <Link to="/projects">
+                            projects
+                        </Link>
                     </li>
                     <li className="px-3 py-1">
                         posts

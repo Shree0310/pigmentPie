@@ -1,3 +1,32 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --navbar-color: gray;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--navbar-color);
+}
+
+/* Define default themes for dark and light mode */
+[ data-color-scheme="light" ]{
+  --bg-color: white;
+  --text-color: black;
+  --navbar-color: gray;
+
+}
+
+[ data-color-theme= "dark"]{
+  --bg-color: gray;
+  --text-color: white;
+  --navbar-color: #333;
+}
+
 /* Custom gradient for range slider */
 input[type="range"] {
     --thumb-size: 15px;

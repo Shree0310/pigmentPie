@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Caskadia Cove';
+  src: url('./Assets/fonts/CaskaydiaCove-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+.my-custome-font {
+  @apply italic;
+  font-family: var(--font-family-monospace);
+  font-size: clamp(2rem, 4vw, 4rem);
+  letter-spacing: -4px;
+}
 /* 
 body {
   margin: 0;
