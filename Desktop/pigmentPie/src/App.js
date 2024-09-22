@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function RootLayout() {
       <main>
         <Outlet /> {/* Outlet renders child routes like App, About, Projects */}
       </main>
+      <footer>
+          <Footer/>
+      </footer>
     </div>
   );
 }

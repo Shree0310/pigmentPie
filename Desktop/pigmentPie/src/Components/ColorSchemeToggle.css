@@ -9,14 +9,16 @@ body {
   /* color: var(--text-color); */
 }
 
-
-
 nav {
   background-color: var(--navbar-color);
   color: var(--text-color);
 }
 
-h1 {
+/* h1 {
+  color: var(--text-color);
+} */
+
+.sub-text{
   color: var(--text-color);
 }
 
