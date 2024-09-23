@@ -62,6 +62,7 @@ const ColorSchemeToggle =() =>{
         let newBgColor = '';
         let newNavBarColor = '';
         let newNavbarTextColor = '';
+        let newDarkTextColor = '';
 
         if(currentTheme === 'light'){
             const lightColors = ['#F9F3F4', '#C7DC85', '#FFB219', '#B8E095', '#F0D04E'];
@@ -74,13 +75,15 @@ const ColorSchemeToggle =() =>{
             const darkColors = ['#000000', '#000000', '#141A17', '#6E6E6E', '#D65790'];
             newBgColor = interpolateColor(darkColors, value);
             newNavBarColor = interpolateColor(['#9C9292', '#EA5C1A', '#A0B49C', '#A0A0A0', '#CCCCCC'], value);
-            newNavbarTextColor = interpolateColor(['#FFFFFF', '#FFFFFF', '#467268', '#A0A0A0', '#2B1439'], value);
+            newNavbarTextColor = interpolateColor(['#DC8930', '#CDCDCD', '#467268', '#A0A0A0', '#2B1439'], value);
+            newDarkTextColor= interpolateColor(['#DADADA', '#DADADA', '#DADADA', '#DADADA', '#DADADA'], value);
             //console.log(newColor);
         }
         //document.body.style.backgroundColor = newColor;
         document.documentElement.style.setProperty('--bg-color', newBgColor);
         document.documentElement.style.setProperty('--navbar-color', newNavBarColor);
         document.documentElement.style.setProperty('--text-color', newNavbarTextColor);
+        document.documentElement.style.setProperty('--body-text-color', newDarkTextColor);
     }
    
     return (

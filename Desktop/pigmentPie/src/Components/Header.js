@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
 import ColorSchemeToggle from "./ColorSchemeToggle";
+import './ColorSchemeToggle.css'
 
 const Header = ()=>{
     return (
+        
         <nav>
         <div className="h-3 shadow-md">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-4 pb-28">
             <div className="flex items-center mx-6">
-            <div className="font-bold text-xl text-gray-800 tracking-wide" style={{ fontFamily: "'Cormorant SC', serif" }}>Sourashree Banerjee</div>
+            <div className="font-sans sub-text font-bold text-xl text-gray-800 tracking-wide">
+                Sourashree banerjee
+            </div>
             </div>
             
             <div className="flex items-between">

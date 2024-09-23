@@ -10,6 +10,11 @@ body, html {
 
 }
 
+.footer-line {
+  height: 1px;
+  background-color: #ccc; /* Line color */
+  margin: 20px 0; /* Spacing around the line */
+}
 
 
 

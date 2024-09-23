@@ -6,7 +6,7 @@
 
 body {
   background-color: var(--bg-color);
-  /* color: var(--text-color); */
+  color: var(--body-text-color);
 }
 
 nav {
@@ -14,12 +14,15 @@ nav {
   color: var(--text-color);
 }
 
-/* h1 {
-  color: var(--text-color);
-} */
 
 .sub-text{
   color: var(--text-color);
+}
+
+a::after {
+  content: "↗";
+  color: var(--text-color);
+  size: 16px;
 }
 
 

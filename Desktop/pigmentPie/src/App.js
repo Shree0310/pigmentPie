@@ -22,11 +22,12 @@ function RootLayout() {
       <nav>
         <Header />
       </nav>
-      <main>
+      <main className='flex-grow'>
         <Outlet /> {/* Outlet renders child routes like App, About, Projects */}
       </main>
       <footer>
-          <Footer/>
+        <div className="footer-line"></div>
+        <Footer />
       </footer>
     </div>
   );

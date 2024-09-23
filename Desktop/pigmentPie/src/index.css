@@ -9,6 +9,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./Assets/fonts/Satoshi-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AgentOrange';
+  src: url('./Assets/fonts/AgentOrange.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .my-custome-font {
   @apply italic;
   font-family: var(--font-family-monospace);
