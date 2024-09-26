@@ -25,10 +25,10 @@ function RootLayout() {
       <main className='flex-grow'>
         <Outlet /> {/* Outlet renders child routes like App, About, Projects */}
       </main>
-      <footer>
+      <div>
         <div className="footer-line"></div>
         <Footer />
-      </footer>
+      </div>
     </div>
   );
 }

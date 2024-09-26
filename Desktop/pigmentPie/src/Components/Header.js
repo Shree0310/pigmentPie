@@ -19,24 +19,24 @@ const Header = ()=>{
                     <li className="px-3 py-1">
                         <ColorSchemeToggle/> 
                     </li>
-                    <li className="px-3 py-3">
+                    <li className="px-7 py-3 leading-tight border-dashed hover:border-4 hover:border-current transition">
                         <Link to="/projects">
                             projects
                         </Link>
                     </li>
-                    <li className="px-3 py-3">
+                    <li className="px-7 py-3 leading-tight border-dashed hover:border-4 hover:border-current transition">
                         posts
                     </li>
-                    <li className="px-3 py-3">
+                    <li className="px-7 py-3 leading-tight border-dashed hover:border-4 hover:border-current transition">
                         <Link to="/about">
                             about
                         </Link>
                         
                     </li>
-                    <li className="px-3 py-3">
+                    <li className="px-7 py-3 leading-tight border-dashed hover:border-4 hover:border-current transition">
                         uses
                     </li>
-                    <li className="px-3 py-3 mx-1">
+                    <li className="px-7 py-3 leading-tight border-dashed hover:border-4 hover:border-current transition">
                         say hi
                     </li>
                 </ul>

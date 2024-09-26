@@ -19,11 +19,11 @@ nav {
   color: var(--text-color);
 }
 
-a::after {
+/* a::after {
   content: "↗";
   color: var(--text-color);
   size: 16px;
-}
+} */
 
 
 
