@@ -89,7 +89,7 @@ const ColorSchemeToggle =() =>{
     return (
       <div className="flex items-center gap-2 relative">
         <button
-          className="color-scheme-toggle relative z-10 px-3 mx-2"
+          className="color-scheme-toggle relative z-10 lg:px-3 lg:mx-2"
           onClick={toggleTheme}
           aria-label="Toggle Dark Mode"
         >
@@ -97,7 +97,7 @@ const ColorSchemeToggle =() =>{
           <img
             src={moonAndStarsIcon}
             alt="light mode icon"
-            className="w-6 h-6"/>
+            className="lg:w-6 lg:h-6 sm:w-8 sm:h-8"/>
         ):(
           <img
             src={sunIcon}

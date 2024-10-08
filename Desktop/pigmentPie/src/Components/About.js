@@ -21,12 +21,12 @@ const About = ()=>{
             <p className="font-satoshi mx-16 text-[16px]">Thanks for stopping by my site, and don't hesitate to <a className="sub-text"> reach out! </a></p>
 
             <div className="w-full sub-text overflow-hidden pt-10">
-            <ul className="font-satoshi list-disc text-[40px] animate-move-text flex space-x-3 px-4">
-                <li>Frontend Development </li>
-                <li>Web Accessibility </li>
-                <li>Tailwind CSS </li>
-                <li>Web Design </li>
-                <li>Design Systems</li>
+            <ul className="flex font-satoshi list-disc text-[40px] animate-move-text">
+                <li className="pr-6">Frontend Development </li>
+                <li className="pr-6">Web Accessibility </li>
+                <li className="pr-4">Tailwind CSS </li>
+                <li className="pr-4">Web Design </li>
+                <li className="pr-4">Design Systems</li>
             </ul>
             </div>
 

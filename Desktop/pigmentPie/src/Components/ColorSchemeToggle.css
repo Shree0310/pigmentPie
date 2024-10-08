@@ -19,6 +19,14 @@ nav {
   color: var(--text-color);
 }
 
+.bag-color{
+  background-color: var(--navbar-color);
+}
+
+.nav-textColor{
+  color: var(--bg-color);
+}
+
 /* a::after {
   content: "↗";
   color: var(--text-color);
