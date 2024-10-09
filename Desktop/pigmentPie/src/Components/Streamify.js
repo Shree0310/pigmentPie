@@ -1,12 +1,11 @@
-import MoviesGPT1 from './../Assets/images/MoviesGPT1.png';
-import MoviesGPT4 from './../Assets/images/MoviesGPT4.png';
-import MoviesGPT3 from './../Assets/images/MoviesGPT3.png';
-import MoviesGPT5 from './../Assets/images/MoviesGPT5.png';
+import Streamify1 from './../Assets/images/Streamify1.png';
+import Streamify2 from './../Assets/images/Streamify2.png';
+import Streamify3 from './../Assets/images/Streamify3.png';
+import Streamify4 from './../Assets/images/Streamify4.png';
 import { useEffect, useState } from "react";
 
 
-const MoviesGPT = ()=>{
-
+const Streamify = () =>{
     const [move, setMove] = useState(false);
 
         //Trigger the animation when the component mounts (page loads)
@@ -14,14 +13,13 @@ const MoviesGPT = ()=>{
             setMove(true);
         },[]);
 
-
     return (
         <div>
             <div>
                 <h1 className=" "></h1>
                 <div className="flex justify-center pt-36 pr-32">
                     <img
-                    src={MoviesGPT1}
+                    src={Streamify1}
                     className={`transition-transform duration-1000 transform ${
                         move ? 'translate-x-20' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
@@ -29,7 +27,7 @@ const MoviesGPT = ()=>{
 
                 <div className="flex justify-center pt-36 pr-32">
                     <img
-                    src={MoviesGPT3}
+                    src={Streamify2}
                     className={`transition-transform duration-1000 transform ${
                         move ? 'translate-x-20' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
@@ -37,7 +35,7 @@ const MoviesGPT = ()=>{
 
                 <div className="flex justify-center pt-28 pr-32">
                     <img
-                    src={MoviesGPT4}
+                    src={Streamify3}
                     className={`transition-transform duration-1000 transform ${
                         move ? 'translate-x-20' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
@@ -45,7 +43,7 @@ const MoviesGPT = ()=>{
 
                 <div className="flex justify-center pt-28 pr-32">
                     <img
-                    src={MoviesGPT5}
+                    src={Streamify4}
                     className={`transition-transform duration-1000 transform ${
                         move ? 'translate-x-20' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
@@ -55,4 +53,4 @@ const MoviesGPT = ()=>{
     )
 }
 
-export default MoviesGPT;
+export default Streamify;

@@ -7,6 +7,8 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import Foodie from './Components/Foodie';
+import MoviesGPT from './Components/MoviesGPT';
+import Streamify from './Components/Streamify';
 
 function App() {
   return (
@@ -54,6 +56,14 @@ const router = createBrowserRouter([
       {
         path: "foodie",
         element: <Foodie/>
+      },
+      {
+        path: "moviesGPT",
+        element: <MoviesGPT/>
+      },
+      {
+        path: "streamify",
+        element: <Streamify/>
       }
     ]
   }
