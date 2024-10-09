@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import Foodie from './Components/Foodie';
 
 function App() {
   return (
@@ -48,7 +49,11 @@ const router = createBrowserRouter([
       },
       {
         path: "projects",
-        element:<Projects/>
+        element:<Projects/>,
+      },
+      {
+        path: "foodie",
+        element: <Foodie/>
       }
     ]
   }

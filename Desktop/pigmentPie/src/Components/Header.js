@@ -65,17 +65,29 @@ const Header = ()=>{
                
 
             {/* Drop down menu visible on small screens */} 
-            { isOpen && (
-                <div className="lg:hidden absolute top-16 w-full h-full z-50 sub-text bag-color ">
-                    <div className="text-center pt-32 font-medium text-4xl">
-                        <a href="" className="block pb-8"> projects</a>
-                        <a href="" className="block pb-8"> posts</a>
-                        <a href="" className="block pb-8">about</a>
-                        <a href="" className="block pb-8">say hi</a>
-                    </div>
+           
+                <div className={`${isOpen ? 'block' : 'hidden' } lg:hidden absolute top-16 w-full h-full z-50 sub-text bag-color `}>
+                    <ul className="text-center pt-32 font-medium text-4xl">
+                        <li href="" className="block pb-8"> 
+                            <Link to='/projects' onClick={isToggle}>
+                                projects
+                            </Link>
+                        </li>
+                        <li href="" className="block pb-8"> 
+                            <Link to='' >
+                                posts
+                            </Link>
+                        </li>
+                        <li href="" className="block pb-8">
+                            <Link to='/about' onClick={isToggle}>
+                                about
+                            </Link>
+                        </li>
+                        <li href="" className="block pb-8">say hi</li>
+                    </ul>
 
                 </div>
-            )}         
+       
         </div>
         </div>
         </nav>

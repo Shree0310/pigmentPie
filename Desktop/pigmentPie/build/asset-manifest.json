@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1d66b4c.css",
-    "main.js": "/static/js/main.9281c27f.js",
+    "main.css": "/static/css/main.14205943.css",
+    "main.js": "/static/js/main.9614e29d.js",
     "static/js/453.815728ae.chunk.js": "/static/js/453.815728ae.chunk.js",
+    "static/media/FoodieImage1.png": "/static/media/FoodieImage1.c8b2e2565f22e0ddc2ce.png",
+    "static/media/MoviesGPT1.png": "/static/media/MoviesGPT1.0fcb89d4483d38761383.png",
     "static/media/CaskaydiaCove-ExtraLight.ttf": "/static/media/CaskaydiaCove-ExtraLight.ab4a3a3f2b5c7f19bc68.ttf",
     "static/media/Satoshi-Regular.ttf": "/static/media/Satoshi-Regular.fe762acc7e97cb612805.ttf",
     "static/media/AgentOrange.ttf": "/static/media/AgentOrange.65b36cea4a2bc9e270f6.ttf",
@@ -10,12 +12,12 @@
     "static/media/github.svg": "/static/media/github.dce9acff7d1ae0723241be86a5f8cf98.svg",
     "static/media/sun-fog-svgrepo-com.svg": "/static/media/sun-fog-svgrepo-com.f540379e10498beeb7ec18edafd29a9a.svg",
     "index.html": "/index.html",
-    "main.c1d66b4c.css.map": "/static/css/main.c1d66b4c.css.map",
-    "main.9281c27f.js.map": "/static/js/main.9281c27f.js.map",
+    "main.14205943.css.map": "/static/css/main.14205943.css.map",
+    "main.9614e29d.js.map": "/static/js/main.9614e29d.js.map",
     "453.815728ae.chunk.js.map": "/static/js/453.815728ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d66b4c.css",
-    "static/js/main.9281c27f.js"
+    "static/css/main.14205943.css",
+    "static/js/main.9614e29d.js"
   ]
 }

@@ -1,9 +1,11 @@
+import { Link, Outlet } from 'react-router-dom';
 import FoodieImage1 from './../Assets/images/FoodieImage1.png'
 import MoviesGPT1 from './../Assets/images/MoviesGPT1.png'
 
 const Projects = () =>{
     return (
         <div>
+
             <h1 className="font-caskadia italic text-[clamp(2rem,4vw,4rem)] tracking-tight mx-10 pt-32 pb-8">
             <span className="sub-text">/</span>selected-works
             </h1>
@@ -11,7 +13,7 @@ const Projects = () =>{
                 <div className='flex mx-20'>
                     <div className='flex h-[470px] m-6 p-4 w-[400px]'>
                         <div className='container'>
-                            <a href="https://foodie.sourashreeart.com/">
+                            <Link to="/foodie">
                                 <img
                                 src={FoodieImage1}         
                                 className='flex justify-center w-[400px] h-60 rounded-2xl shadow-xl cursor-pointer transition-transform hover:rotate-2 ease-in-out hover:scale-105'/>
@@ -19,7 +21,7 @@ const Projects = () =>{
 
                                 <p className='font-sans text-lg sub-text'>An online food delivery website where users can log in, select a restaurant, choose from its menu, add items to a cart, and check out. Built with ReactJS and Tailwind CSS.
                                 </p>
-                            </a>
+                            </Link>
                         </div>
                     </div>    
                 {/* <button className='bg-gray-50 border-black size-[5px]'>Live site</button> */}
