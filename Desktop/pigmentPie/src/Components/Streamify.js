@@ -21,7 +21,7 @@ const Streamify = () =>{
                     <img
                     src={Streamify1}
                     className={`transition-transform duration-1000 transform ${
-                        move ? 'translate-x-20' : 'translate-x-0' 
+                        move ? 'translate-x-28' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
                 </div>
 
@@ -29,7 +29,7 @@ const Streamify = () =>{
                     <img
                     src={Streamify2}
                     className={`transition-transform duration-1000 transform ${
-                        move ? 'translate-x-20' : 'translate-x-0' 
+                        move ? 'translate-x-28' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
                 </div>
 
@@ -37,7 +37,7 @@ const Streamify = () =>{
                     <img
                     src={Streamify3}
                     className={`transition-transform duration-1000 transform ${
-                        move ? 'translate-x-20' : 'translate-x-0' 
+                        move ? 'translate-x-28' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
                 </div>
 
@@ -45,7 +45,7 @@ const Streamify = () =>{
                     <img
                     src={Streamify4}
                     className={`transition-transform duration-1000 transform ${
-                        move ? 'translate-x-20' : 'translate-x-0' 
+                        move ? 'translate-x-28' : 'translate-x-0' 
                     }  w-[768px] h-[432px] rounded-2xl border border-spacing-1 border-gray-300`}/>
                 </div>         
             </div>

@@ -6,7 +6,6 @@ import Streamify1 from './../Assets/images/Streamify1.png';
 const Projects = () =>{
     return (
         <div>
-
             <h1 className="font-caskadia italic text-[clamp(2rem,4vw,4rem)] tracking-tight mx-10 pt-32 pb-8">
             <span className="sub-text">/</span>selected-works
             </h1>
@@ -20,10 +19,16 @@ const Projects = () =>{
                                 className='flex justify-center w-[400px] h-60 rounded-2xl shadow-xl cursor-pointer transition-transform hover:rotate-2 ease-in-out hover:scale-105'/>
                                 <p  className="font-agentOrange text-[30px] py-4 font-semibold" >FOODIE</p>
 
-                                <p className='font-sans text-lg sub-text'>An online food delivery website where users can log in, select a restaurant, choose from its menu, add items to a cart, and check out. Built with ReactJS and Tailwind CSS.
+                                <p className='font-sans text-lg sub-text pb-2'>An online food delivery website where users can log in, select a restaurant, choose from its menu, add items to a cart, and check out. Built with ReactJS and Tailwind CSS.
                                 </p>
                             </Link>
+                            <button className='border font-bold text-lg dark:border-gray-400 border-gray-900 text-gray-900 dark:text-gray-200 sub-text rounded-md'>
+                                    <a href='https://foodie.sourashreeart.com/'>
+                                        Live site
+                                    </a>
+                                </button>
                         </div>
+                        
                     </div>    
                 {/* <button className='bg-gray-50 border-black size-[5px]'>Live site</button> */}
                     <div className='flex h-[370px] m-6 p-4 w-[400px] '>
@@ -33,9 +38,13 @@ const Projects = () =>{
                             src={Streamify1}
                             className='flex justify-center w-[400px] h-60 rounded-xl shadow-2xl cursor-pointer transition-transform hover:rotate-2 ease-in-out hover:scale-105'/>
                             <p className="font-agentOrange text-[30px] py-4 font-semibold">Streamify</p>
-                            <p className='font-sans text-lg sub-text'>A Dashboard that displays various data, some chart implementations and a table with filtering & sorting. </p> 
+                            <p className='font-sans text-lg sub-text pb-2'>A Dashboard that displays various data, some chart implementations and a table with filtering & sorting. </p> 
                         </Link>
-                        
+                        <button className='border font-bold text-lg dark:border-gray-400 border-gray-900 text-gray-900 dark:text-gray-200 sub-text rounded-md'>
+                            <a href='https://streamify.sourashreeart.com/'>
+                                Live site
+                            </a>
+                        </button>
                         </div>  
                     </div>
 
@@ -46,9 +55,14 @@ const Projects = () =>{
                                 src={MoviesGPT1}
                                 className='flex justify-center w-[400px] h-60 rounded-xl shadow-2xl cursor-pointer transition-transform hover:rotate-2 ease-in-out hover:scale-105'/>
                                 <p className="font-agentOrange text-[30px] py-4 font-semibold">Movies GPT</p>
-                                <p className='font-sans text-lg sub-text'>A Netflix clone with GPT-3 integration. Integrated AI for an enhanced user experience.
+                                <p className='font-sans text-lg sub-text pb-2'>A Netflix clone with GPT-3 integration. Integrated AI for an enhanced user experience.
                                 </p> 
-                            </Link>                       
+                            </Link>
+                            <button className='border font-bold text-lg dark:border-gray-400 border-gray-900 text-gray-900 dark:text-gray-200 sub-text rounded-md'>
+                            <a href='https://moviesgpt.sourashreeart.com/'>
+                                Live site
+                            </a>
+                        </button>                       
                         </div>  
                     </div>
                 </div>
