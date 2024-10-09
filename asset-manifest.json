@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7f9544c.css",
-    "main.js": "/static/js/main.d08c9f65.js",
+    "main.css": "/static/css/main.a84a2338.css",
+    "main.js": "/static/js/main.c09eebd2.js",
     "static/js/453.815728ae.chunk.js": "/static/js/453.815728ae.chunk.js",
     "static/media/MoviesGPT3.png": "/static/media/MoviesGPT3.8662601128eee10b772f.png",
     "static/media/MoviesGPT5.png": "/static/media/MoviesGPT5.80880f65097f83c8c196.png",
@@ -21,12 +21,12 @@
     "static/media/github.svg": "/static/media/github.dce9acff7d1ae0723241be86a5f8cf98.svg",
     "static/media/sun-fog-svgrepo-com.svg": "/static/media/sun-fog-svgrepo-com.f540379e10498beeb7ec18edafd29a9a.svg",
     "index.html": "/index.html",
-    "main.a7f9544c.css.map": "/static/css/main.a7f9544c.css.map",
-    "main.d08c9f65.js.map": "/static/js/main.d08c9f65.js.map",
+    "main.a84a2338.css.map": "/static/css/main.a84a2338.css.map",
+    "main.c09eebd2.js.map": "/static/js/main.c09eebd2.js.map",
     "453.815728ae.chunk.js.map": "/static/js/453.815728ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f9544c.css",
-    "static/js/main.d08c9f65.js"
+    "static/css/main.a84a2338.css",
+    "static/js/main.c09eebd2.js"
   ]
 }
